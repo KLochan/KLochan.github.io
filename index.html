@@ -3,105 +3,161 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kshetrimayum Lochan | Robotics & VLA</title>
-  <meta name="description" content="Academic homepage of Kshetrimayum Lochan, Project Assistant Professor at Kobe University working on Vision-Language-Action models, robotics, autonomous manipulation, and nonlinear control.">
+  <title>Kshetrimayum Lochan</title>
+  <meta name="description" content="Kshetrimayum Lochan — Project Assistant Professor at Kobe University. Robotics, Vision-Language-Action models, autonomous manipulation, nonlinear and robust control.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="nav-wrap">
-    <div class="social">
-      <a href="mailto:lochan.nits@gmail.com" aria-label="Email">✉</a>
-      <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en" target="_blank">G</a>
-      <a href="https://github.com/KLochan" target="_blank">GH</a>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=55263348600" target="_blank">S</a>
+<header class="topbar">
+  <div class="nav-shell">
+    <div class="icon-links">
+      <a href="mailto:lochan.nits@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://github.com/KLochan" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=55263348600" target="_blank" title="Scopus"><i class="fa-solid fa-book-open"></i></a>
     </div>
-    <nav>
+    <nav class="main-nav">
       <a class="active" href="index.html">home</a>
-      <a href="research.html">research</a>
       <a href="publications.html">publications</a>
+      <a href="research.html">research</a>
       <a href="teaching.html">teaching</a>
       <a href="cv.html">cv</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
     </nav>
   </div>
 </header>
 
-<main class="container">
-  <section class="hero">
-    <div class="hero-text">
+<main class="page">
+  <section class="intro">
+    <div class="intro-copy">
       <h1>Kshetrimayum Lochan</h1>
-      <p class="role">Project Assistant Professor at <strong>Kobe University</strong>, Japan</p>
-      <p>I am a robotics researcher at the <strong>CINAPS Lab, Graduate School of System Informatics</strong>. My work spans robot dynamics and control, autonomous robotic manipulation, perception, and Vision-Language-Action (VLA) models.</p>
-      <p>My research began with robust and nonlinear control of flexible manipulators and has expanded through underwater manipulation, visual servoing and agricultural robotics toward learning-based manipulation and embodied AI. My current research integrates vision, language, perception, policy inference and robot control for real-world language-conditioned manipulation.</p>
-      <p class="links"><a href="mailto:lochan.nits@gmail.com">Email</a> · <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en">Google Scholar</a> · <a href="https://www.scopus.com/authid/detail.uri?authorId=55263348600">Scopus</a> · <a href="https://github.com/KLochan">GitHub</a></p>
-    </div>
-    <img class="portrait" src="https://avatars.githubusercontent.com/u/66626552?v=4" alt="Kshetrimayum Lochan">
-  </section>
+      <p class="position">Project Assistant Professor at <a href="https://www.kobe-u.ac.jp/en/" target="_blank">Kobe University</a>.</p>
 
-  <section>
-    <h2>research vision</h2>
-    <p>My long-term goal is to develop <strong>robust, adaptive and intelligent robotic systems</strong> that operate reliably in complex and uncertain real-world environments. I am particularly interested in combining model-based nonlinear control with multimodal perception, robot learning, VLA policies and embodied intelligence.</p>
-    <div class="chips">
-      <span>Vision-Language-Action</span><span>Autonomous Manipulation</span><span>Robot Dynamics & Control</span><span>Nonlinear & Robust Control</span><span>Embodied AI</span><span>Visual Servoing</span>
+      <p>I am a Project Assistant Professor in the Graduate School of System Informatics at Kobe University, Japan, working in the CINAPS Lab. My research focuses on robot dynamics and control, autonomous robotic manipulation, perception, and Vision-Language-Action (VLA) models.</p>
+
+      <p>My research trajectory began with modelling and robust control of flexible robotic manipulators and later expanded to nonlinear and adaptive control, underwater manipulation, visual servoing, agricultural robotics, and learning-based autonomous manipulation. My current work studies how vision, language, perception, policy inference, and robot control can be integrated for real-world language-conditioned manipulation.</p>
+
+      <p>I am particularly interested in combining <strong>nonlinear and robust control</strong> with <strong>Vision-Language-Action models</strong> and embodied intelligence to develop reliable robotic systems for complex and uncertain environments.</p>
+    </div>
+    <div class="portrait-wrap">
+      <img class="portrait" src="https://avatars.githubusercontent.com/u/66626552?v=4" alt="Kshetrimayum Lochan">
     </div>
   </section>
 
-  <section>
-    <h2>experience</h2>
-    <div class="timeline-grid">
-      <div class="exp-card"><div class="inst">Kobe University</div><div class="title">Project Assistant Professor</div><div class="years">2026 – Present</div></div>
-      <div class="exp-card"><div class="inst">Khalifa University</div><div class="title">Postdoctoral Fellow</div><div class="years">2023 – 2026</div></div>
-      <div class="exp-card"><div class="inst">IIT Palakkad</div><div class="title">Postdoctoral Fellow</div><div class="years">2022</div></div>
-      <div class="exp-card"><div class="inst">Manipal Institute of Technology</div><div class="title">Assistant Professor</div><div class="years">2018 – 2021</div></div>
-      <div class="exp-card"><div class="inst">NIT Silchar</div><div class="title">Research & Teaching Assistant / Faculty</div><div class="years">2013 – 2018</div></div>
-      <div class="exp-card"><div class="inst">NIT Silchar</div><div class="title">Ph.D., Robotics & Control</div><div class="years">2013 – 2018</div></div>
+  <section class="career-strip">
+    <div class="career-item">
+      <div class="logo-block kobe">KOBE<br><span>UNIVERSITY</span></div>
+      <div class="career-role">Project Assistant Professor</div>
+      <div class="career-years">(2026 – Present)</div>
+    </div>
+    <div class="career-item">
+      <div class="logo-block ku">KHALIFA<br><span>UNIVERSITY</span></div>
+      <div class="career-role">Postdoctoral Fellow</div>
+      <div class="career-years">(2023 – 2026)</div>
+    </div>
+    <div class="career-item">
+      <div class="logo-block iit">IIT<br><span>PALAKKAD</span></div>
+      <div class="career-role">Postdoctoral Fellow</div>
+      <div class="career-years">(2022)</div>
+    </div>
+    <div class="career-item">
+      <div class="logo-block mit">MIT<br><span>MANIPAL</span></div>
+      <div class="career-role">Assistant Professor</div>
+      <div class="career-years">(2018 – 2021)</div>
+    </div>
+    <div class="career-item">
+      <div class="logo-block nit">NIT<br><span>SILCHAR</span></div>
+      <div class="career-role">Ph.D. · Research & Teaching</div>
+      <div class="career-years">(2013 – 2018)</div>
+    </div>
+    <div class="career-item">
+      <div class="logo-block gu">GAUHATI<br><span>UNIVERSITY</span></div>
+      <div class="career-role">M.Tech.</div>
+      <div class="career-years">(2010 – 2012)</div>
     </div>
   </section>
+
+  <hr>
+
+  <section>
+    <h2>research interests</h2>
+    <p class="interest-line">Vision-Language-Action Models · Autonomous Robotic Manipulation · Robot Dynamics & Control · Nonlinear & Robust Control · Embodied AI · Visual Servoing · Flexible Manipulators · Agricultural Robotics</p>
+  </section>
+
+  <hr>
 
   <section>
     <h2>news</h2>
-    <ul class="news">
-      <li><span>2026.10</span> Released a documented <a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">π0.5 × xArm7 real-robot VLA implementation</a>.</li>
-      <li><span>2026.06</span> Joined Kobe University as Project Assistant Professor.</li>
-      <li><span>2026</span> Current work at CINAPS Lab focuses on VLA-based robotic manipulation and embodied AI.</li>
-      <li><span>2026</span> RA-L manuscript on contraction-based observation for a port-Hamiltonian flexible manipulator under review/revision.</li>
-      <li><span>2024</span> Published <em>Robust Control Algorithms for Two-link Flexible Manipulators</em>, CRC Press / Taylor & Francis.</li>
+    <ul class="news-list">
+      <li><span class="date">2026.10</span> Released a documented <a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">π0.5 × xArm7 real-robot VLA implementation</a> for language-conditioned manipulation.</li>
+      <li><span class="date">2026.06</span> Joined <strong>Kobe University</strong> as Project Assistant Professor.</li>
+      <li><span class="date">2026</span> Current research at CINAPS Lab focuses on VLA-based robotic manipulation and embodied AI.</li>
+      <li><span class="date">2026</span> “Contraction-Based Observer for Chaotic Tracking of a Port-Hamiltonian Two-Link Flexible Manipulator” under review/revision at <em>IEEE Robotics and Automation Letters</em>.</li>
+      <li><span class="date">2024</span> Published <em>Robust Control Algorithms for Two-link Flexible Manipulators</em>, CRC Press / Taylor & Francis.</li>
+      <li><span class="date">2024.12</span> Presented research at the 63rd IEEE Conference on Decision and Control (CDC 2024), Milan.</li>
     </ul>
   </section>
 
-  <section>
-    <h2>selected project</h2>
-    <article class="project-card">
-      <div>
-        <h3><a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">π0.5 × xArm7 — Real-Robot VLA Manipulation</a></h3>
-        <p>End-to-end real-robot Vision-Language-Action deployment using π0.5 / OpenPI on a UFactory xArm7 with dual RealSense cameras, ROS 2 Jazzy and LeRobot.</p>
-        <p class="meta">~100 demonstrations · verified pick–lift–release · typical policy inference ≈100 ms on RTX 5090</p>
-        <p><a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">[Code & project page]</a></p>
-      </div>
-    </article>
-  </section>
+  <hr>
 
   <section>
     <h2>selected publications</h2>
-    <p class="pub-note">Full list on <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en">Google Scholar</a>.</p>
+    <p class="pub-intro"><em>Find my full publication list via <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en">Google Scholar</a>.</em></p>
 
-    <article class="pub">
-      <div class="pub-thumb">BOOK</div>
-      <div><h3>Robust Control Algorithms for Two-link Flexible Manipulators</h3><p><strong>K. Lochan</strong>, B. K. Roy, B. Subudhi, S. Mohan</p><p class="venue">CRC Press / Taylor & Francis, 2024</p></div>
+    <article class="publication">
+      <div class="pub-image book-cover"><span>CRC<br>PRESS</span></div>
+      <div class="pub-body">
+        <h3>Robust Control Algorithms for Two-link Flexible Manipulators</h3>
+        <p><strong>Kshetrimayum Lochan</strong>, B. K. Roy, B. Subudhi, and S. Mohan</p>
+        <p class="venue">CRC Press / Taylor & Francis, 2024</p>
+        <p class="paper-links"><a href="https://doi.org/10.1201/9781003345268">[Book]</a> <a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en">[Scholar]</a></p>
+      </div>
     </article>
 
-    <article class="pub">
-      <div class="pub-thumb">RA-L</div>
-      <div><h3>Contraction-Based Observer for Chaotic Tracking of a Port-Hamiltonian Two-Link Flexible Manipulator</h3><p><strong>K. Lochan</strong>, B. K. Roy, B. Subudhi, I. Hussain</p><p class="venue">IEEE Robotics and Automation Letters, under review/revision, 2026</p></div>
+    <article class="publication">
+      <img class="pub-image real-image" src="https://raw.githubusercontent.com/KLochan/pi0.5-xArm7-handwash-pick/main/assets/handwash_task_montage.jpg" alt="π0.5 xArm7 real-robot VLA project">
+      <div class="pub-body">
+        <h3>π0.5 × xArm7: Real-Robot Vision-Language-Action Manipulation</h3>
+        <p><strong>Kshetrimayum Lochan</strong></p>
+        <p class="venue">Real-robot research implementation, Kobe University, 2026</p>
+        <p>π0.5 / OpenPI deployment on UFactory xArm7 with dual RealSense cameras, ROS 2 Jazzy, and LeRobot.</p>
+        <p class="paper-links"><a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">[Project]</a> <a href="https://github.com/KLochan/pi0.5-xArm7-handwash-pick">[Code]</a></p>
+      </div>
     </article>
 
-    <article class="pub">
-      <div class="pub-thumb">IEEE</div>
-      <div><h3>Advancements in Precision Delivery of Agricultural Robotics: A Comprehensive Review</h3><p><strong>K. Lochan</strong>, A. Khan, I. Elsayed, B. Suthar, L. Seneviratne, I. Hussain</p><p class="venue">IEEE Access, 2024</p></div>
+    <article class="publication">
+      <div class="pub-image paper-graphic">RA-L</div>
+      <div class="pub-body">
+        <h3>Contraction-Based Observer for Chaotic Tracking of a Port-Hamiltonian Two-Link Flexible Manipulator</h3>
+        <p><strong>Kshetrimayum Lochan</strong>, B. K. Roy, B. Subudhi, and I. Hussain</p>
+        <p class="venue">IEEE Robotics and Automation Letters, under review/revision, 2026</p>
+      </div>
     </article>
+
+    <article class="publication">
+      <div class="pub-image paper-graphic">IEEE<br>ACCESS</div>
+      <div class="pub-body">
+        <h3>Advancements in Precision Delivery of Agricultural Robotics: A Comprehensive Review</h3>
+        <p><strong>Kshetrimayum Lochan</strong>, A. Khan, I. Elsayed, B. Suthar, L. Seneviratne, and I. Hussain</p>
+        <p class="venue">IEEE Access, 2024</p>
+        <p class="paper-links"><a href="https://scholar.google.co.in/citations?user=Sx0c1C0AAAAJ&hl=en">[Scholar]</a></p>
+      </div>
+    </article>
+
+    <p class="more"><a href="publications.html">more publications →</a></p>
   </section>
 </main>
 
-<footer>© 2026 Kshetrimayum Lochan · Hosted on GitHub Pages</footer>
+<footer class="footer">© 2026 Kshetrimayum Lochan</footer>
+
+<script>
+const btn=document.getElementById('theme-toggle');
+btn.addEventListener('click',()=>{document.body.classList.toggle('dark');localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');});
+if(localStorage.getItem('theme')==='dark')document.body.classList.add('dark');
+</script>
 </body>
 </html>
